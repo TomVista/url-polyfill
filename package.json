@@ -1,0 +1,31 @@
+{
+  "name": "url-polyfill",
+  "version": "0.0.1",
+  "description": "standard url class",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack build",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomVista/url-polyfill.git"
+  },
+  "keywords": [
+    "url",
+    "class"
+  ],
+  "author": "Tom Vista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomVista/url-polyfill/issues"
+  },
+  "homepage": "https://github.com/TomVista/url-polyfill#readme",
+  "dependencies": {
+    "core-js": "^3.22.8",
+    "webpack": "^5.73.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
