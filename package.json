@@ -1,6 +1,6 @@
 {
-  "name": "url-polyfill",
-  "version": "0.0.1",
+  "name": "@tom.vista/url-polyfill",
+  "version": "1.0.0",
   "description": "standard url class",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,8 @@
   },
   "devDependencies": {
     "webpack-cli": "^4.9.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
